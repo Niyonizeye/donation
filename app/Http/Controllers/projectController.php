@@ -5,7 +5,8 @@ use App\Project;
 use Illuminate\Http\Request;
 
 class projectController extends Controller
-{
+{   
+   
     public function index() {
         $projects = view('admin.projects')->with('projects',Project::all());
         

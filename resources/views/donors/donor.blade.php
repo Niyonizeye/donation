@@ -144,11 +144,7 @@
                     <textarea name="name" id="" placeholder="Add comment here !!!" class="commentField"></textarea>
                     <button type="submit" class="btn btn-primary float-end"> Add</button>
                 </form>
-                @foreach($comment as $comments)
-                    <div class="text-font">
-                    <span class="mr-3">{{$comments->name}} </span><span>{{$current=$comments->created_at->diffForHumans()}}</span>
-                    </div>
-                @endforeach
+               <!-- comment div assign -->
             </div>
         </div>
         <div class="col-sm-6 my-4">

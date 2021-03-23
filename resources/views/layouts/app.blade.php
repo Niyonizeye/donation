@@ -27,7 +27,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light headercontent shadow-sm" style="margin:0">
             <div class="container">
-                <a href="{{ url('/') }}"><img src="image/logo.png" alt="" srcset="" class="logo"></a>
+                <a href="{{ url('/') }}"><img src="image/muhahecharityLog.png" alt="" srcset="" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}" >
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -66,27 +66,30 @@
         </main>
     </div>
     <!-- footer section -->
-    <footer class="footer-section" style="margin-top:25px">
+    <footer class="footer-section footerDiv" style="margin-top:25px">
         <div class="container">
           <div class="row" style="margin-top:25px">
-               <div class="col-sm-3">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-               </div>
-               <div class="col-sm-3">
-                    <h6>Contact Us</h6>
+               <div class="col-sm-3" style="margin-top:40px">
+                  <h4>Social link</h4>
                     <ul>
-                        <li>+(250) 783524980</li>
-                        <li>info.affiliate@muhahe.com</li>
-                        <li>KN 578 Cyahafi Street Apt. 356, Kigali Nyarugenge Rwanda</li>
+                       <li><a href="https://web.facebook.com/Muhahecharity-111282497709109"><i class="fa fa-facebook"></i>  facebook</a></li>
+                       <li><a href="#"><i class="fa fa-twitter"></i>  Twitter</a></li>
+                       <li><a href="https://www.linkedin.com/in/muhahe-charity-4939a4209/"><i class="fa fa-linked-plus"></i>  linked In</a></li>
+                       <li><a href="#"><i class="fa fa-instagram"></i>  instagram</a></li>
+                       <li><a href="https://www.youtube.com/channel/UCbsvpe6iJUORWAihhWHVB3A"><i class="fa fa-youtube-play"></i>  Youtube</a></li>
+                    </ul>                    
+               </div>
+               <div class="col-sm-3" style="margin-top:40px">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>contact:+250786080119</li>
+                        <li>email : charitymuhahe@gmail.com</li>
+                        <li>address  kigali Nyarugenge  Rwanda </li>
                     </ul>
                </div>
                <div class="col-sm-3">
-                    <div class="ft-newslatter">
-                        <h6>New latest</h6>
+                    <div class="ft-newslatter" style="margin-top:40px">
+                        <h4>New latest</h4>
                         <p>Get the latest updates and offers.</p>
                         <form action="#" class="fn-form">
                             <input type="text" placeholder="Email">
@@ -94,12 +97,11 @@
                         </form>
                     </div>
                </div>
-               <div class="col-sm-3">
+               <div class="col-sm-3" style="margin-top:40px">
                <ul>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">contact us</a></li>
                     <li><a href="#">Terms of use</a></li>
                     <li><a href="#">Privacy</a></li>
-                    <li><a href="/admin">Admin</a></li>
                 </ul>
                </div>
           </div>

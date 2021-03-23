@@ -377,9 +377,15 @@ font-size:18px;
   font-size: 24px;
 
 }
+.footerDiv{
+  font-size:18px;
+}
+.footerDiv a{
+  padding:5px;
+}
 .donateLink{
   position: absolute;
-  top:30%;
+  top:40%;
   right:40%;
   z-index:3;
   width:200px;

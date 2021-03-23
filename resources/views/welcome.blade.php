@@ -5,7 +5,7 @@
 <!-- Modal -->
 <div class="container-fluid containerUp" style="padding:0;margin:0">
     <div class="img">
-        <img src="/image/muhahebanner33.jpg" class="imageBanner img-fluid" alt="" srcset="">
+        <img src="/image/muhahebanner.jpg" class="imageBanner img-fluid" alt="" srcset="">
         <a href="/donor" class="rounded btn-primary donateLink">Donate</a>
     </div>
 </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-sm-8 my-4 zeropadding">
                 <div class="container bg-dark rounded divUp my-4 zeropadding">
-                    We need You! become Volunteer Just Call At (.... Phone number ) To MAke Donation
+                    We need You! become .Volunteer interesting   At (+250786080119 ) To MAke Donation
                     <a href="/donor" class="btn btn-primary rounded ml-4 text-center zeropadding">Donate Now</a>
                 </div>
             
@@ -132,12 +132,12 @@
                                  </div>
                             </div>
                             
-                            <div class="text-donation rounded">Crypto-donation Total <span class="float-right result-text">${{ $donors->sum('amount')}}</span></div>
+                            <div class="text-donation rounded">Total raised <span class="float-right result-text">${{ $donors->sum('amount')}}</span></div>
                             </div>
                             <div class="conatiner-fluid DonationDown">
                                 <div class="row donationDiv1">
-                                    <div class="col-sm-4 text-center"><div><span class="result">456</span></div><div>Donations</div></div>
-                                    <div class="col-sm-4 text-center"><div><span class="result">456</span></div><div>End beneficiaries</div></div>
+                                    <div class="col-sm-4 text-center"><div><span class="result">0</span></div><div>backers</div></div>
+                                    <div class="col-sm-4 text-center"><div><span class="result">0</span></div><div>online backers </div></div>
                                     <div class="col-sm-4 text-center">
                                     <div class="text-center"><a href="/donor" class="btn btn-primary rounded"> Donate</a></div>
                                     </div>
@@ -172,12 +172,12 @@
                                  </div>
                             </div>
                             
-                            <div class="text-donation rounded">Crypto-donation Total <span class="float-right result-text">${{ $donors->sum('amount')}}</span></div>
+                            <div class="text-donation rounded">Total raised <span class="float-right result-text">${{ $donors->sum('amount')}}</span></div>
                             </div>
                             <div class="conatiner-fluid DonationDown">
                                 <div class="row donationDiv1">
-                                    <div class="col-sm-4 text-center"><div><span class="result">456</span></div><div>Donations</div></div>
-                                    <div class="col-sm-4 text-center"><div><span class="result">456</span></div><div>End beneficiaries</div></div>
+                                    <div class="col-sm-4 text-center"><div><span class="result">0</span></div><div>backers</div></div>
+                                    <div class="col-sm-4 text-center"><div><span class="result">0</span></div><div>online backers </div></div>
                                     <div class="col-sm-4 text-center">
                                     <div class="text-center"><a href="/donor" class="btn btn-primary rounded"> Donate</a></div>
                                     </div>
@@ -217,14 +217,14 @@ make it so
                   <div class="getinvolved">Get involved</div>
                   <div class="listDiv">
                        <ul>
-                           <li>Are you passionate about social impact?</li>
-                           <li>want to propose project</li>
-                           <li>Have some feedback for us</li>
+                           <li>have you passionate about social impact?</li>
+                           <li>do you want to join us</li>
+                           <li>do you have some feedback for us.</li>
                        </ul>
                   </div>
             </div>
            <div class="col-sm-6">
-               <button class="getTouch">Get in touch</button>
+               <button class="getTouch">Join us</button>
            </div>
       </div>
 
@@ -260,12 +260,12 @@ make it so
            <div class="col-sm-6">
            <div class="my-2"><h2>Donate Today</h2> </div>
               <div>
-              changing lives,Taking action.For every £1 you donate could change a life.
+              <h5>changing lives,Taking action.For every £1 you donate could change a life.
               
               
               Thankfully, we all have the power to do something and make a difference. 
-              <p>Here at Muhahe donations, we're empowering a person for individuals, group ,organizations, and communities to step up in the face of the COVID-19 outbreak and help those who need it most.</p>
-              <h5>Rwandan startup Muhahe multi functions an e-commerce platform</h5>
+              Here at Muhahe donations, we're empowering a person for individuals, group ,organizations, and communities to step up in the face of the COVID-19 outbreak and help those who need it most.</h5>
+              
               </div>
               <div class="my-4"> <a href="/donor" class="btn btn-primary rounded float-left donateWidth">Donate</a></div>
            </div>
